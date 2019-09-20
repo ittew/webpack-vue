@@ -1,0 +1,103 @@
+.sprite {
+  background-image: url("/public/sprite/familyIndex-sprite.png");
+  background-size: 648px 307px;
+  background-repeat: no-repeat;
+}
+@mixin sprite($filename) {
+  @if $filename == "add-groups" {
+    @extend .sprite;
+    background-position: -268px -50px;
+    height: 128px;
+    width: 128px;
+  }
+  @if $filename == "add-people" {
+    @extend .sprite;
+    background-position: -249px -184px;
+    height: 112px;
+    width: 113px;
+  }
+  @if $filename == "close" {
+    @extend .sprite;
+    background-position: -536px -100px;
+    height: 44px;
+    width: 44px;
+  }
+  @if $filename == "delete" {
+    @extend .sprite;
+    background-position: -536px -50px;
+    height: 44px;
+    width: 44px;
+  }
+  @if $filename == "edit" {
+    @extend .sprite;
+    background-position: -586px -50px;
+    height: 44px;
+    width: 44px;
+  }
+  @if $filename == "fail" {
+    @extend .sprite;
+    background-position: -402px -50px;
+    height: 128px;
+    width: 128px;
+  }
+  @if $filename == "groupInfo" {
+    @extend .sprite;
+    background-position: 0px 0px;
+    height: 44px;
+    width: 648px;
+  }
+  @if $filename == "groupsnopassed" {
+    @extend .sprite;
+    background-position: -134px -50px;
+    height: 128px;
+    width: 128px;
+  }
+  @if $filename == "groupspassed" {
+    @extend .sprite;
+    background-position: 0px -50px;
+    height: 128px;
+    width: 128px;
+  }
+  @if $filename == "has" {
+    @extend .sprite;
+    background-position: -368px -184px;
+    height: 112px;
+    width: 113px;
+  }
+  @if $filename == "mailList" {
+    @extend .sprite;
+    background-position: -586px -100px;
+    height: 44px;
+    width: 44px;
+  }
+  @if $filename == "me" {
+    @extend .sprite;
+    background-position: 0px -184px;
+    height: 123px;
+    width: 124px;
+  }
+  @if $filename == "other" {
+    @extend .sprite;
+    background-position: -487px -184px;
+    height: 112px;
+    width: 113px;
+  }
+  @if $filename == "refresh" {
+    @extend .sprite;
+    background-position: -606px -184px;
+    height: 40px;
+    width: 40px;
+  }
+  @if $filename == "toright" {
+    @extend .sprite;
+    background-position: -636px -50px;
+    height: 20px;
+    width: 11px;
+  }
+  @if $filename == "wait" {
+    @extend .sprite;
+    background-position: -130px -184px;
+    height: 112px;
+    width: 113px;
+  }
+}

@@ -1,0 +1,43 @@
+.sprite {
+  background-image: url("/public/sprite/demo-page-one-sprite.png");
+  background-size: 368px 224px;
+  background-repeat: no-repeat;
+}
+@mixin sprite($filename) {
+  @if $filename == "pig" {
+    @extend .sprite;
+    background-position: 0px 0px;
+    height: 128px;
+    width: 176px;
+  }
+  @if $filename == "star1" {
+    @extend .sprite;
+    background-position: -182px 0px;
+    height: 90px;
+    width: 90px;
+  }
+  @if $filename == "star2" {
+    @extend .sprite;
+    background-position: 0px -134px;
+    height: 90px;
+    width: 90px;
+  }
+  @if $filename == "star3" {
+    @extend .sprite;
+    background-position: -96px -134px;
+    height: 90px;
+    width: 90px;
+  }
+  @if $filename == "star4" {
+    @extend .sprite;
+    background-position: -278px 0px;
+    height: 90px;
+    width: 90px;
+  }
+  @if $filename == "star5" {
+    @extend .sprite;
+    background-position: -278px -96px;
+    height: 90px;
+    width: 90px;
+  }
+}

@@ -1,0 +1,115 @@
+.sprite {
+  background-image: url("/public/sprite/mySocial-sprite.png");
+  background-size: 462px 396px;
+  background-repeat: no-repeat;
+}
+@mixin sprite($filename) {
+  @if $filename == "add-member" {
+    @extend .sprite;
+    background-position: 0px 0px;
+    height: 128px;
+    width: 128px;
+  }
+  @if $filename == "clear" {
+    @extend .sprite;
+    background-position: -402px -240px;
+    height: 36px;
+    width: 36px;
+  }
+  @if $filename == "contact" {
+    @extend .sprite;
+    background-position: -402px -196px;
+    height: 38px;
+    width: 38px;
+  }
+  @if $filename == "double" {
+    @extend .sprite;
+    background-position: -402px -316px;
+    height: 20px;
+    width: 25px;
+  }
+  @if $filename == "edit" {
+    @extend .sprite;
+    background-position: -402px -146px;
+    height: 44px;
+    width: 44px;
+  }
+  @if $filename == "gou" {
+    @extend .sprite;
+    background-position: -402px -282px;
+    height: 28px;
+    width: 36px;
+  }
+  @if $filename == "main" {
+    @extend .sprite;
+    background-position: 0px -268px;
+    height: 128px;
+    width: 128px;
+  }
+  @if $filename == "member-noopen" {
+    @extend .sprite;
+    background-position: -134px -268px;
+    height: 128px;
+    width: 128px;
+  }
+  @if $filename == "member-open" {
+    @extend .sprite;
+    background-position: -268px -268px;
+    height: 128px;
+    width: 128px;
+  }
+  @if $filename == "menu-icon" {
+    @extend .sprite;
+    background-position: -402px -50px;
+    height: 44px;
+    width: 60px;
+  }
+  @if $filename == "my-member" {
+    @extend .sprite;
+    background-position: -268px -134px;
+    height: 128px;
+    width: 128px;
+  }
+  @if $filename == "open" {
+    @extend .sprite;
+    background-position: -402px 0px;
+    height: 44px;
+    width: 60px;
+  }
+  @if $filename == "owner" {
+    @extend .sprite;
+    background-position: -268px 0px;
+    height: 128px;
+    width: 128px;
+  }
+  @if $filename == "retract" {
+    @extend .sprite;
+    background-position: -402px -100px;
+    height: 40px;
+    width: 60px;
+  }
+  @if $filename == "select-no" {
+    @extend .sprite;
+    background-position: -134px -134px;
+    height: 128px;
+    width: 128px;
+  }
+  @if $filename == "selected" {
+    @extend .sprite;
+    background-position: 0px -134px;
+    height: 128px;
+    width: 128px;
+  }
+  @if $filename == "tel-icon" {
+    @extend .sprite;
+    background-position: -446px -196px;
+    height: 16px;
+    width: 16px;
+  }
+  @if $filename == "wait-member" {
+    @extend .sprite;
+    background-position: -134px 0px;
+    height: 128px;
+    width: 128px;
+  }
+}
