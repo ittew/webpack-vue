@@ -1,9 +1,4 @@
-# 中国移动客户端
-
-> 中国移动客户端内嵌 web 工程，工程新特性包括：二级目录、分目录打包、分环境打包、manifest 缓存配置、接口自动 loading 效果、接口数据缓存配置、命令快速创建新页面。
-
 ## Build Setup
-
 ```bash
 # install dependencies
 npm install
@@ -14,7 +9,7 @@ npm run dev --fileName1!fileName2
 # build for production with minification
 npm run build p  # 生产
 npm run build t/fileName1  # 灰度
-npm run build x/fileName1!fileName2  # 西安
+npm run build x/fileName1!fileName2
 ```
 
 ## 公用方法
